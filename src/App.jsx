@@ -21,7 +21,10 @@ const App = () => {
             <Route path="/item-selection" component={ItemSelection} />
           </Routes>
         </div>
-        <Footer />
+        <section className='flex-grow'>
+          <Footer />
+        </section>
+        
       </div>
     </Router>
   );
